@@ -1,0 +1,14 @@
+.bentoGrid {
+  padding: var(--spc-400) var(--spc-300);
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: var(--spc-400);
+}
+
+@media (min-width: 48rem) {
+  .bentoGrid {
+    padding-top: clamp(3.25rem, 4.762vw + 0.964rem, 5.25rem);
+    padding-bottom: clamp(3.25rem, 4.762vw + 0.964rem, 5.25rem);
+  }
+}
