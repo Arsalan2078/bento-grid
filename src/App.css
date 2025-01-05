@@ -10,31 +10,79 @@
   --clr-purple-500: hsl(256, 67%, 59%);
   --clr-yellow-100: hsl(31, 66%, 93%);
   --clr-yellow-500: hsl(39, 100%, 71%);
+
+  --clr-pink-050: hsl(300, 5%, 96%);
+
   --clr-white: hsl(0, 0%, 100%);
   --clr-black: hsl(0, 0%, 7%);
 
   --ff-serif: "DM Sans";
+
   --fw-400: 400;
   --fw-500: 500;
 
-  --fs-paragraph: 1.125rem;
+  --fs-rg: 1.125rem;
+  --fs-md: 1.625rem;
+  --fs-lg: 2rem;
+  --fs-xl: 2.875rem;
 
-  font-family: var(--ff-serif);
-  font-weight: var(--fw-400);
+  --lh-087: 87.5%;
+  --lh-090: 90%;
+  --lh-093: 93.5%;
+  --lh-111: 111%;
+
+  --ls-regular: 0rem;
+  --ls-tight: -0.125rem;
+  --ls-tighter: -0.1875rem;
+
   font-size: 16px;
 }
 
-body {
-  height: 100%;
+@media (min-width: 48rem) {
+  :root {
+    --fs-md: 1.75rem;
+    --fs-lg: 2.25rem;
+    --fs-xl: 3.375rem;
+  }
+}
+@media (min-width: 90rem) {
+  :root {
+    --fs-md: 2rem;
+    --fs-lg: 2.5rem;
+    --fs-xl: 3.875rem;
+  }
 }
 
 #root {
-  --_background-color: hsl(300, 5%, 96%);
-  background-color: var(--_background-color);
+  height: 100%;
 
-  height: inherit;
+  background-color: var(--clr-pink-050);
+  color: var(--clr-black);
+
+  font-family: var(--ff-serif);
+  font-size: var(--fs-rg);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-111);
+  letter-spacing: var(--ls-regular);
 }
 
-em {
-  font-style: italic;
+h1 {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-500);
+  line-height: var(--lh-093);
+  letter-spacing: var(--ls-tighter);
+}
+
+h2 {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-500);
+  line-height: var(--lh-090);
+  letter-spacing: var(--ls-tight);
+}
+
+h3 {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-500);
+  line-height: var(--lh-097);
+  letter-spacing: var(--ls-tight);
 }

@@ -19,12 +19,12 @@ function App() {
       <p>Over 4,000 5-star reviews</p>
 
       <img src={imgMultiplePlatforms} alt="" />
-      <h2>Manage multiple accounts and platforms.</h2>
+      <h3>Manage multiple accounts and platforms.</h3>
 
-      <h2>Maintain a consistent posting schedule.</h2>
+      <h3>Maintain a consistent posting schedule.</h3>
       <img src={imgConsistentSchedule} alt="" />
 
-      <h2>Schedule to social media.</h2>
+      <h3>Schedule to social media.</h3>
       <img src={imgSchedulePosts} alt="" />
       <p>
         Optimize post timings to publish content at the perfect time for your
@@ -32,15 +32,15 @@ function App() {
       </p>
 
       <img src={imgGrowFollowers} alt="" />
-      <h3>Grow followers with non-stop content.</h3>
+      <h2>Grow followers with non-stop content.</h2>
 
       <div>{`>`}56% </div>
       <p>faster audience growth</p>
       <img src={imgAudienceGrowth} alt="" />
 
-      <h3>
+      <h2>
         Create and schedule content <em>quicker.</em>
-      </h3>
+      </h2>
       <img src={imgCreatePost} alt="" />
 
       <h3>Write your content using AI.</h3>
