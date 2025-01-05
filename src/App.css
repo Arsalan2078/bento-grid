@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "DM Sans";
+  src: local("DM Sans"), url("./assets/fonts/DMSans-VariableFont_opsz,wght.ttf");
+  font-weight: 400 500;
+  font-display: swap;
+}
+
+:root {
+  --clr-purple-100: hsl(254, 88%, 90%);
+  --clr-purple-500: hsl(256, 67%, 59%);
+  --clr-yellow-100: hsl(31, 66%, 93%);
+  --clr-yellow-500: hsl(39, 100%, 71%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsl(0, 0%, 7%);
+
+  --ff-serif: "DM Sans";
+  --fw-400: 400;
+  --fw-500: 500;
+
+  --fs-paragraph: 1.125rem;
+
+  font-family: var(--ff-serif);
+  font-weight: var(--fw-400);
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  --_background-color: hsl(300, 5%, 96%);
+  background-color: var(--_background-color);
+
+  height: inherit;
+}
+
+em {
+  font-style: italic;
+}
