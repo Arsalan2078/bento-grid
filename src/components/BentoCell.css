@@ -1,0 +1,38 @@
+.bento-cell {
+  --_bg-color: var(--bg-color);
+  --_text-color: var(--text-color);
+
+  background-color: var(--_bg-color);
+  color: var(--_text-color);
+
+  border-radius: 0.625rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--spc-200);
+}
+
+.bento-cell--purple {
+  --_bg-color: var(--clr-purple-500);
+  --_text-color: var(--clr-white);
+}
+
+.bento-cell--white {
+  --_bg-color: var(--clr-white);
+  --_text-color: var(--clr-black);
+}
+
+.bento-cell-yellow {
+  --_bg-color: var(--clr-yellow-500);
+  --_text-color: var(--clr-black);
+}
+
+.bento-cell--purple-pale {
+  --_bg-color: var(--clr-purple-100);
+  --_text-color: var(--clr-black);
+}
+
+.bento-cell--yellow-pale {
+  --_bg-color: var(--clr-yellow-100);
+  --_text-color: var(--clr-black);
+}

@@ -1,8 +1,0 @@
-.bentoCell {
-  border-radius: 0.625rem;
-  background-color: pink;
-
-  display: flex;
-  flex-direction: column;
-  gap: var(--spc-200);
-}

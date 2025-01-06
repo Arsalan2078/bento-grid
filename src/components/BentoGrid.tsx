@@ -1,8 +1,8 @@
 import { ChildrenProps } from "../libs/types";
-import styles from "./BentoGrid.module.css";
+import "./BentoGrid.css";
 
 function BentoGrid({ children }: ChildrenProps) {
-  return <div className={styles.bentoGrid}>{children}</div>;
+  return <div className={`bento-grid`}>{children}</div>;
 }
 
 export default BentoGrid;

@@ -1,4 +1,4 @@
-.bentoGrid {
+.bento-grid {
   padding: var(--spc-400) var(--spc-300);
 
   display: grid;
@@ -6,8 +6,12 @@
   gap: var(--spc-400);
 }
 
+.bento-grid em {
+  padding-right: var(--spc-100);
+}
+
 @media (min-width: 48rem) {
-  .bentoGrid {
+  .bento-grid {
     padding-top: clamp(3.25rem, 4.762vw + 0.964rem, 5.25rem);
     padding-bottom: clamp(3.25rem, 4.762vw + 0.964rem, 5.25rem);
   }
