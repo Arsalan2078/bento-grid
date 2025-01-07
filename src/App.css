@@ -32,8 +32,8 @@
   --lh-111: 111%;
 
   --ls-regular: 0rem;
-  --ls-tight: -0.125rem;
-  --ls-tighter: -0.1875rem;
+  --ls-tight: -0.1rem;
+  --ls-tighter: -0.125rem;
 
   --spc-100: 0.5rem;
   --spc-200: 1rem;
@@ -49,6 +49,10 @@
     --fs-md: 1.75rem;
     --fs-lg: 2.25rem;
     --fs-xl: 3.375rem;
+
+    --ls-regular: 0rem;
+    --ls-tight: -0.125rem;
+    --ls-tighter: -0.125rem;
   }
 }
 @media (min-width: 90rem) {
@@ -56,6 +60,10 @@
     --fs-md: 2rem;
     --fs-lg: 2.5rem;
     --fs-xl: 3.875rem;
+
+    --ls-regular: 0rem;
+    --ls-tight: -0.125rem;
+    --ls-tighter: -0.1875rem;
   }
 }
 
@@ -99,8 +107,4 @@ h3 {
 
 em {
   font-style: italic;
-}
-
-img {
-  display: block;
 }

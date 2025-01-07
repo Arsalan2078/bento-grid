@@ -1,8 +1,15 @@
-import { ChildrenProps } from "../libs/types";
+import { BentoCellProps } from "../libs/types";
 import "./BentoCell.css";
 
-function BentoCell({ children }: ChildrenProps) {
-  return <div className={`bento-cell bento-cell--purple`}>{children}</div>;
+function BentoCell({ children, cellName, cellColor }: BentoCellProps) {
+  return (
+    <section
+      id={cellName}
+      className={`bento-cell bento-cell--${cellName} bento-cell--${cellColor}`}
+    >
+      {children}
+    </section>
+  );
 }
 
 export default BentoCell;

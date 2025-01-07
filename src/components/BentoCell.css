@@ -1,6 +1,11 @@
 .bento-cell {
   --_bg-color: var(--bg-color);
   --_text-color: var(--text-color);
+  --_highlight-color: var(--_highlight-color, var(--text-color));
+
+  --_padding: var(--padding, var(--spc-200));
+
+  padding: var(--_padding);
 
   background-color: var(--_bg-color);
   color: var(--_text-color);
@@ -10,11 +15,18 @@
   display: flex;
   flex-direction: column;
   gap: var(--spc-200);
+
+  & .highlight {
+    color: var(--_highlight-color);
+  }
 }
+
+/* CELL COLORS */
 
 .bento-cell--purple {
   --_bg-color: var(--clr-purple-500);
   --_text-color: var(--clr-white);
+  --_highlight-color: var(--clr-yellow-500);
 }
 
 .bento-cell--white {
@@ -22,7 +34,7 @@
   --_text-color: var(--clr-black);
 }
 
-.bento-cell-yellow {
+.bento-cell--yellow {
   --_bg-color: var(--clr-yellow-500);
   --_text-color: var(--clr-black);
 }
@@ -35,4 +47,39 @@
 .bento-cell--yellow-pale {
   --_bg-color: var(--clr-yellow-100);
   --_text-color: var(--clr-black);
+  --_highlight-color: var(--clr-purple-500);
+}
+
+/* CELL NAMES */
+
+.bento-cell--five-stars {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--multiple-platforms {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--consistent-schedule {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--schedule-post {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--grow-followers {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--audience-growth {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--create-post {
+  --_padding: var(--spc-400);
+}
+
+.bento-cell--ai-content {
+  --_padding: var(--spc-400);
 }

@@ -4,8 +4,7 @@ export interface ChildrenProps {
   children: ReactNode;
 }
 
-export interface ClassNameProps {
-  className: string;
+export interface BentoCellProps extends ChildrenProps {
+  cellColor: "purple" | "white" | "yellow" | "purple-pale" | "yellow-pale";
+  cellName: string;
 }
-
-export interface BentoCellProps {}

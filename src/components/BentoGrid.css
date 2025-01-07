@@ -1,5 +1,5 @@
 .bento-grid {
-  padding: var(--spc-400) var(--spc-300);
+  padding: var(--spc-400) var(--spc-200);
 
   display: grid;
   grid-template-columns: repeat(1, 1fr);
