@@ -47,7 +47,7 @@ function App() {
       </BentoCell>
 
       <BentoCell cellName="audience-growth" cellColor="white">
-        <div>{`>`}56% </div>
+        <div className="audience-growth-rate">{`>`}56% </div>
         <p>faster audience growth</p>
         <img src={imgAudienceGrowth} alt="" />
       </BentoCell>
