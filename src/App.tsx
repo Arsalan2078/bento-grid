@@ -14,7 +14,7 @@ export default function App() {
   return (
     <main className={styles.app} data-text-preset="4">
       <BentoGrid>
-        <BentoCell cellColor="purple-pale">
+        <BentoCell cellColor="purple">
           <SectionSocialMedia />
         </BentoCell>
 

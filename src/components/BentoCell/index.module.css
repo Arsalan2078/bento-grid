@@ -1,4 +1,30 @@
 .cell {
   border-radius: calc(10 / 16 * 1rem);
-  padding: 1rem;
+}
+
+/* cell colors */
+
+.cell[data-cell-color="purple"] {
+  background-color: var(--c-purple-500);
+  color: var(--c-white);
+}
+
+.cell[data-cell-color="purple-pale"] {
+  background-color: var(--c-purple-100);
+  color: var(--c-black);
+}
+
+.cell[data-cell-color="white"] {
+  background-color: var(--c-white);
+  color: var(--c-black);
+}
+
+.cell[data-cell-color="yellow"] {
+  background-color: var(--c-yellow-500);
+  color: var(--c-black);
+}
+
+.cell[data-cell-color="yellow-pale"] {
+  background-color: var(--c-yellow-100);
+  color: var(--c-black);
 }
