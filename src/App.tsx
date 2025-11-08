@@ -1,21 +1,50 @@
+import BentoCell from "./components/BentoCell";
+import BentoGrid from "./components/BentoGrid";
+import SectionAudienceGrowth from "./components/sections/SectionAudienceGrowth";
+import SectionCreatePost from "./components/sections/SectionCreatePost";
+import SectionGrowFollowers from "./components/sections/SectionGrowFollowers";
+import SectionMaintainConsistent from "./components/sections/SectionMaintainConsistent";
+import SectionManageMultiple from "./components/sections/SectionManageMultiple";
+import SectionSchedule from "./components/sections/SectionSchedule";
+import SectionSocialMedia from "./components/sections/SectionSocialMedia";
+import SectionWriteYourContent from "./components/sections/SectionWriteYourContent";
+
 export default function App() {
-  return <div>
-    Social Media 10x Faster with AI
-    Over 4,000 5-star reviews
+  return (
+    <main>
+      <BentoGrid>
+        <BentoCell cellColor="purple-pale">
+          <SectionSocialMedia />
+        </BentoCell>
 
-    Manage multiple accounts and platforms.
+        <BentoCell cellColor="white">
+          <SectionManageMultiple />
+        </BentoCell>
 
-    Maintain a consistent posting schedule.
+        <BentoCell cellColor="yellow">
+          <SectionMaintainConsistent />
+        </BentoCell>
 
-    Schedule to social media.
-    Optimize post timings to publish content at the perfect time for your audience.
-    
-    Grow followers with non-stop content.
+        <BentoCell cellColor="purple-pale">
+          <SectionSchedule />
+        </BentoCell>
 
-    {`>`}56% faster audience growth
-    
-    Create and schedule content quicker.
+        <BentoCell cellColor="purple">
+          <SectionGrowFollowers />
+        </BentoCell>
 
-    Write your content using AI.
-  </div>;
+        <BentoCell cellColor="white">
+          <SectionAudienceGrowth />
+        </BentoCell>
+
+        <BentoCell cellColor="yellow-pale">
+          <SectionCreatePost />
+        </BentoCell>
+
+        <BentoCell cellColor="yellow">
+          <SectionWriteYourContent />
+        </BentoCell>
+      </BentoGrid>
+    </main>
+  );
 }
