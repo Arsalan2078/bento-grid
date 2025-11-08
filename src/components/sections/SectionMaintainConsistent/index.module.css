@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+
+  padding: 1rem;
+  padding-bottom: 0;
+
+  overflow: hidden;
+
+  & > img {
+    margin-bottom: calc(-20 / 16 * 1rem);
+  }
+}

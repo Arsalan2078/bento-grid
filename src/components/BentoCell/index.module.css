@@ -1,5 +1,7 @@
 .cell {
   border-radius: calc(10 / 16 * 1rem);
+
+  container: bento-cell / inline-size;
 }
 
 /* cell colors */
@@ -7,6 +9,8 @@
 .cell[data-cell-color="purple"] {
   background-color: var(--c-purple-500);
   color: var(--c-white);
+
+  --text-color-highlight: var(--c-yellow-500);
 }
 
 .cell[data-cell-color="purple-pale"] {
@@ -27,4 +31,6 @@
 .cell[data-cell-color="yellow-pale"] {
   background-color: var(--c-yellow-100);
   color: var(--c-black);
+
+  --text-color-highlight: var(--c-purple-500);
 }
