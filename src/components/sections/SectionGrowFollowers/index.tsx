@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-grow-followers.webp";
 
 export default function SectionGrowFollowers() {

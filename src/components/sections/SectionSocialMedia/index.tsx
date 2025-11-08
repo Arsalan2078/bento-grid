@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-five-stars.webp";
 
 export default function SectionSocialMedia() {

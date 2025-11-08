@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-schedule-posts.webp";
 
 export default function SectionSchedule() {

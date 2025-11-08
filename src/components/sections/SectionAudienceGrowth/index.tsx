@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-audience-growth.webp";
 
 export default function SectionAudienceGrowth() {

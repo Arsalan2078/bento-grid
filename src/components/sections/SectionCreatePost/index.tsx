@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-create-post.webp";
 
 export default function SectionCreatePost() {

@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-ai-content.webp";
 
 export default function SectionWriteYourContent() {

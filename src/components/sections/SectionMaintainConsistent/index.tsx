@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import image from "/images/illustration-consistent-schedule.webp";
 
 export default function SectionMaintainConsistent() {
