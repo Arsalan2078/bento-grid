@@ -8,6 +8,7 @@
 .grid {
   display: grid;
   gap: 2rem 2rem;
+  grid-template-columns: repeat(1, 1fr);
   grid-template-areas:
     "c-1"
     "c-2"
@@ -21,6 +22,7 @@
 
 @media screen and (min-width: calc(768 / 16 * 1rem)) {
   .grid {
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
       "c-1  c-1"
       "c-2  c-3"
@@ -33,6 +35,7 @@
 
 @media screen and (min-width: calc(984 / 16 * 1rem)) {
   .grid {
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "c-1 c-1  c-1 c-1  c-4 c-4"
       "c-2 c-2  c-3 c-3  c-4 c-4"
@@ -43,6 +46,7 @@
 
 @media screen and (min-width: calc(1200 / 16 * 1rem)) {
   .grid {
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
       "c-7  c-1  c-1  c-4"
       "c-7  c-2  c-3  c-4"
