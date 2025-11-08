@@ -1,7 +1,86 @@
+.container {
+  margin: 0 auto;
+  width: min(100%, calc(1120 / 16 * 1rem));
+}
+
+/* bento grid */
+
 .grid {
   display: grid;
   gap: 2rem 2rem;
+  grid-template-areas:
+    "c-1"
+    "c-2"
+    "c-3"
+    "c-4"
+    "c-5"
+    "c-6"
+    "c-7"
+    "c-8";
+}
 
-  margin: 0 auto;
-  width: min(100%, calc(1120 / 16 * 1rem))
+@media screen and (min-width: calc(768 / 16 * 1rem)) {
+  .grid {
+    grid-template-areas:
+      "c-1  c-1"
+      "c-2  c-3"
+      "c-4  c-4"
+      "c-5  c-5"
+      "c-6  c-6"
+      "c-7  c-8";
+  }
+}
+
+@media screen and (min-width: calc(984 / 16 * 1rem)) {
+  .grid {
+    grid-template-areas:
+      "c-1 c-1  c-1 c-1  c-4 c-4"
+      "c-2 c-2  c-3 c-3  c-4 c-4"
+      "c-6 c-6  c-5 c-5  c-5 c-5"
+      "c-7 c-7  c-7 c-8  c-8 c-8";
+  }
+}
+
+@media screen and (min-width: calc(1200 / 16 * 1rem)) {
+  .grid {
+    grid-template-areas:
+      "c-7  c-1  c-1  c-4"
+      "c-7  c-2  c-3  c-4"
+      "c-8  c-2  c-3  c-4"
+      "c-8  c-6  c-5  c-5";
+  }
+}
+
+/* bento grid children */
+
+.grid > *:nth-child(1) {
+  grid-area: c-1;
+}
+
+.grid > *:nth-child(2) {
+  grid-area: c-2;
+}
+
+.grid > *:nth-child(3) {
+  grid-area: c-3;
+}
+
+.grid > *:nth-child(4) {
+  grid-area: c-4;
+}
+
+.grid > *:nth-child(5) {
+  grid-area: c-5;
+}
+
+.grid > *:nth-child(6) {
+  grid-area: c-6;
+}
+
+.grid > *:nth-child(7) {
+  grid-area: c-7;
+}
+
+.grid > *:nth-child(8) {
+  grid-area: c-8;
 }
