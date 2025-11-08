@@ -1,3 +1,4 @@
+import styles from "./App.module.css";
 import BentoCell from "./components/BentoCell";
 import BentoGrid from "./components/BentoGrid";
 import SectionAudienceGrowth from "./components/sections/SectionAudienceGrowth";
@@ -11,7 +12,7 @@ import SectionWriteYourContent from "./components/sections/SectionWriteYourConte
 
 export default function App() {
   return (
-    <main data-text-preset="4">
+    <main className={styles.app} data-text-preset="4">
       <BentoGrid>
         <BentoCell cellColor="purple-pale">
           <SectionSocialMedia />

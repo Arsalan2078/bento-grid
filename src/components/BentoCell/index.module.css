@@ -1,0 +1,4 @@
+.cell {
+  border-radius: calc(10 / 16 * 1rem);
+  padding: 1rem;
+}

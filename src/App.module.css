@@ -1,0 +1,17 @@
+.app {
+  align-content: center;
+
+  --padding-y: clamp(2rem, 0.75rem + 5.2083vw, 3.25rem);
+  --padding-x: clamp(1rem, -0.5rem + 6.25vw, 2.5rem);
+
+  padding: var(--padding-y) var(--padding-x);
+
+  min-height: 100dvh;
+
+  background-color: var(--background-color-main);
+  color: var(--text-color-main);
+
+  @media screen and (min-width: calc(768 / 16 * 1rem)) {
+    --padding-y: clamp(3.25rem, -0.1944rem + 7.1759vw, 5.1875rem);
+  }
+}

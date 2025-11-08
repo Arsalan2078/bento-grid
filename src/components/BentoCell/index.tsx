@@ -1,3 +1,4 @@
+import styles from "./index.module.css";
 import type { ReactNode } from "react";
 
 type BentoCellProps = {
@@ -9,5 +10,9 @@ export default function BentoCell({
   children,
   cellColor = "white",
 }: BentoCellProps) {
-  return <div data-cell-color={cellColor}>{children}</div>;
+  return (
+    <div className={styles.cell} data-cell-color={cellColor}>
+      {children}
+    </div>
+  );
 }

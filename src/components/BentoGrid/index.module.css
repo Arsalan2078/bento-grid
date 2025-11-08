@@ -1,0 +1,7 @@
+.grid {
+  display: grid;
+  gap: 2rem 2rem;
+
+  margin: 0 auto;
+  width: min(100%, calc(1120 / 16 * 1rem))
+}
