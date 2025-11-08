@@ -11,7 +11,7 @@ import SectionWriteYourContent from "./components/sections/SectionWriteYourConte
 
 export default function App() {
   return (
-    <main>
+    <main data-text-preset="4">
       <BentoGrid>
         <BentoCell cellColor="purple-pale">
           <SectionSocialMedia />
