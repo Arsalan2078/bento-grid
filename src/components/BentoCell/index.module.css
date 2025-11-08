@@ -2,6 +2,10 @@
   border-radius: calc(10 / 16 * 1rem);
 
   container: bento-cell / inline-size;
+
+  & > * {
+    height: 100%;
+  }
 }
 
 /* cell colors */
