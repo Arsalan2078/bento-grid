@@ -12,3 +12,16 @@
     order: -1;
   }
 }
+
+@container bento-cell (min-width: calc(520 / 16 * 1rem)) {
+  .section {
+    flex-direction: row;
+    justify-content: center;
+
+    text-align: start;
+
+    & > h2 {
+      width: min(100%, calc(257 / 16 * 1rem));
+    }
+  }
+}
