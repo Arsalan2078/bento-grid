@@ -47,6 +47,7 @@
 @media screen and (min-width: calc(1200 / 16 * 1rem)) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 162fr 32fr 74fr 123fr;
     grid-template-areas:
       "c-7  c-1  c-1  c-4"
       "c-7  c-2  c-3  c-4"

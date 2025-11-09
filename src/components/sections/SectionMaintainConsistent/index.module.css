@@ -6,10 +6,16 @@
 
   padding: 1rem;
   padding-bottom: 0;
-
-  overflow: hidden;
+  overflow-y: hidden;
 
   & > img {
-    margin-bottom: calc(-20 / 16 * 1rem);
+    margin-bottom: clamp(-4rem, -19.3611rem + 94.4444cqw, 0rem);
+  }
+}
+
+@media screen and (min-width: calc(640 / 16 * 1rem)) {
+  .section {
+    padding: 1.5rem;
+    padding-bottom: 0;
   }
 }

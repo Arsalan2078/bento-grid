@@ -9,7 +9,7 @@ export default function SectionSchedule() {
       <img
         src={image}
         alt="A flowchart depicting hourly audience activity for every day of the week. The time where audience is most active is highlighted"
-        width="308"
+        width="358"
       />
 
       <p>

@@ -48,13 +48,13 @@
     }
   }
 
-  @media screen and (min-width: calc(1200 / 16 * 1rem)) {
+  /* @media screen and (min-width: calc(1200 / 16 * 1rem)) {
     :root {
       --ls-text-preset-1: calc(-3 / 16 * 1rem);
       --ls-text-preset-2: calc(-2 / 16 * 1rem);
       --ls-text-preset-3: calc(-2 / 16 * 1rem);
     }
-  }
+  } */
 }
 
 @layer base {

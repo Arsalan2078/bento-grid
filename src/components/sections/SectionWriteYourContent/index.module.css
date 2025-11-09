@@ -1,6 +1,7 @@
 .section {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: start;
   gap: 1.5rem;
 

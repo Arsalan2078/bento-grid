@@ -8,7 +8,7 @@ export default function SectionWriteYourContent() {
       <img
         src={image}
         alt="A miniature chat. User promps the bot with a request to give tips on growing followers"
-        width="220"
+        width="220 "
       />
     </section>
   );
