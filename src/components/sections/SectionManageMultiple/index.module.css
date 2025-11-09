@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 1rem;
+
+  overflow: hidden;
+
+  & > img {
+    order: -1;
+    min-width: 316px;
+  }
+}
+
+@media screen and (min-width: calc(640 / 16 * 1rem)) {
+  .section {
+    padding: 1.5rem;
+  }
+}

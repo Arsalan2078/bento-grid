@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+
+  padding: 1.5rem;
+
+  & > h2 {
+    display: flex;
+    flex-direction: column;
+    gap: calc(15 / 16 * 1rem);
+  }
+}
+
+@container bento-cell (min-width: calc(444 / 16 * 1rem)) {
+  .section {
+    flex-direction: row;
+    align-items: center;
+  }
+}
